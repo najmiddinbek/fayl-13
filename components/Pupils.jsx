@@ -66,7 +66,7 @@ const PupilsAddClient = () => {
                 });
 
                 // Update the topic count after successful form submission
-                const response = await fetch("http://localhost:3000/api/topics");
+                const response = await fetch("/api/topics");
                 if (response.ok) {
                     const data = await response.json();
                     setTopicCount(data.length);
