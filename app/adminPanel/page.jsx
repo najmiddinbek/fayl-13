@@ -6,7 +6,6 @@ export default function TopicsList() {
         <>
             <div className="container">
                 <Filter2 />
-                Najmiddin
             </div >
         </>
     );

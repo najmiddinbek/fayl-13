@@ -52,6 +52,7 @@ const Filter = () => {
     return (
         <div>
             <div className="flex">
+                <h1>Najmiddin</h1>
                 <div className='mb-4 flex items-center w-full'>
                     <input className='border-2 py-3 px-2 w-full' placeholder='Izlash...' type="text" value={filterValue} onChange={(e) => setFilterValue(e.target.value)} />
                     <button className='green text-white py-3 border-2 px-10 button ' onClick={handleFilter}>Izlash</button>
